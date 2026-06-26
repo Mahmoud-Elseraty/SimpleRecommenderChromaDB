@@ -36,7 +36,7 @@ python interactive_search.py
 python enhanced_RAG_chatbot.py
 ```
 
-## Requirements
+## Requirements 
 
 - Python 3.12+
 - Google Gemini API key (for the RAG chatbot only)

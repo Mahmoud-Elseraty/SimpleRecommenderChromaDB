@@ -23,32 +23,6 @@ A Retrieval-Augmented Generation (RAG) system for semantic food search and AI-po
 └── .python-version           # Python version pin
 ```
 
-## Setup
-
-**1. Clone the repository**
-```bash
-git clone <repo-url>
-cd ChromaDB
-```
-
-**2. Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-**3. Add your config and data**
-
-Create `config.py`:
-```python
-API_KEY = "your-google-gemini-api-key"
-MODEL_ID = "gemini-2.5-flash-lite"
-GENERATION_PARAMS = {
-    "max_output_tokens": 400,
-    "temperature": 0.3,
-}
-```
-
-Place your `FoodDataSet.json` in the project root. Each item should include fields like `food_name`, `food_description`, `food_ingredients`, `cuisine_type`, `food_calories_per_serving`, etc.
 
 ## Usage
 
